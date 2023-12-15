@@ -1,0 +1,41 @@
+{
+  "name": "@shilong521/fnc-method",
+  "version": "0.0.5",
+  "description": "js/ts方法库",
+  "keywords": [
+    "es6",
+    "module",
+    "util"
+  ],
+  "author": "shilong <1115212848@qq.com>",
+  "homepage": "https://github.com/shilong521/fnc-method#readme",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "types": "dist/es/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shilong521/fnc-method/issues"
+  },
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "rm -rf dist/* && rollup -c rollup.config.js --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.23.5",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.6.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-visualizer": "^5.10.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
