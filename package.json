@@ -1,6 +1,6 @@
 {
   "name": "@shilong521/fnc-method",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "js/ts方法库",
   "keywords": [
     "es6",
@@ -8,7 +8,7 @@
     "util"
   ],
   "author": "shilong <1115212848@qq.com>",
-  "homepage": "https://github.com/shilong521/fnc-method#readme",
+  "homepage": "https://github.com/shilong521/fnc-method",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.js",
   "types": "dist/es/index.d.ts",
@@ -19,6 +19,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shilong521/fnc-method/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilong521/fnc-method.git"
   },
   "scripts": {
     "test": "ts-node test.ts",
